@@ -1,0 +1,15 @@
+{
+	"name": "df-raniazureproject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0c77ae3d-fab9-41fc-a96e-e1b25fa997f8",
+		"tenantId": "5a67388c-d19c-4d80-ba0a-13a6366e0669"
+	}
+}
