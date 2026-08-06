@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "df-raniazureproject"
+		},
+		"Azure_sql_password": {
+			"value": ""
+		},
+		"datalake_accountKey": {
+			"value": ""
+		},
+		"Azure_sql_properties_typeProperties_server": {
+			"value": "azureprojectserverrani.database.windows.net"
+		},
+		"Azure_sql_properties_typeProperties_database": {
+			"value": "azureprojectdbrani"
+		},
+		"Azure_sql_properties_typeProperties_userName": {
+			"value": "adminrani"
+		},
+		"datalake_properties_typeProperties_url": {
+			"value": "https://storageraniazureproject.dfs.core.windows.net/"
+		}
+	}
+}
