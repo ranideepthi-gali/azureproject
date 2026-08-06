@@ -8,6 +8,11 @@
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
+					"items": {
+						"value": "@pipeline().parameters.loop_input",
+						"type": "Expression"
+					},
+					"isSequential": true,
 					"activities": [
 						{
 							"name": "AzureSQLToLake",
@@ -333,13 +338,13 @@
 					},
 					{
 						"schema": "dbo",
-						"table": "DimArtist",
-						"cdc_col": "updated_at",
+						"table": "DimDate",
+						"cdc_col": "date",
 						"from_date": ""
 					},
 					{
 						"schema": "dbo",
-						"table": "DimDate",
+						"table": "DimArtist",
 						"cdc_col": "updated_at",
 						"from_date": ""
 					},
